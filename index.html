@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Javascript Framework</title>
+        <link rel="styleSheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="main-body">
+            <div class="login-container 1x 5" id="bbb" style="background:red;">
+                <div class="login-content">
+                    <div title="Yoooo" class="test test2">Hi!</div>
+                    <button class=".fuck">Test</button>
+                </div>
+            </div>
+            <div class="login-container 3 5 8 5 5 5 5" style="display:block">
+                <div class="login-content">
+                    <div title="Yoooo" class="test test2">Hi!</div>
+                    <button class=".fuck">Test</button>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/wee.js"></script>
+        <!-- <script src="script.js"></script> -->
+        <!-- <script src="jsf.js"></script> -->
+        <!-- <script src="jslite.js"></script> -->
+        <!--         <script src="jquery.min.js"></script> -->
+        <script type="text/javascript">
+            //             var tash = $('.login-container.1');
+            //             console.log("All",tash);
+            //             console.log("jq-first",tash.first().prev().addClass("fuck you"));
+            // console.log(tash.hasClass("5"));
+            // console.log($('.login-container').hasClass('5'));
+            // _$('.test4').hasClass('test2');
+            // console.log(_$('div3').html('sdf'));
+            // _$('.login-container').on('click', function(e) {
+            // var target = e.target || e.srcElement;
+            // console.log(target.className);
+            // });
+            // _$('.test').on('click', function() {
+            // console.log("Oh Yes");
+            // })
+            var i = 5;
+            var test = wee('.login-container.1x');
+            console.log(test.css("border:10px solid green;padding:20px;margin:10px;"));
+            console.log(test.children());
+            console.log("Position : ",test.position());
+            console.log("Outer Width :",test.outerWidth());
+            console.log("Inner Width : ",test.innerWidth());
+            console.log("Width :",test.width());
+            
+            console.log("Text",test.text());
+            // console.log("Equality Check",test.isEqual(test2));
+            // console.log(test[0] == test2[0]);
+            console.log(test);
+            var ff = wee('body');
+            var xx = 0;
+            wee.startTimer(function(timer,counter){
+                xx++;
+                console.log("----------------");
+                console.log("xx : ",xx);
+                console.log("timer : ",timer);
+                console.log("counter : ",counter);
+                if(xx > 2)
+                {
+                    console.log("Gotcha",this);
+                    wee.stopTimer(timer);
+                }
+            },5000,5);
+            
+            // console.log("Children",ff.children())
+
+            // test.each(function(item,i){
+            //     console.log(i,"Item : ",item);
+            // })
+            // console.log("First",test.addClass("apple").removeClass("5").toggleClass("apple","Orange").toggleClass("graps","Banana"));
+            // console.log("First", test.first().addClass("first-element"));
+            // console.log("last", test.last().addClass("last-element").hasClass("5"));
+            // console.log("Next Sibling", test.next().prev().prev().prev().prev());
+            // test.hide();
+            // var lcs = document.querySelectorAll(".login-container");
+            // var els = _$.convert(lcs);
+            // console.log(els);
+            // function fuck(){
+            //                 console.log("Fucked On");
+            // }
+            // test.on('click',fuck);
+            // test.off('click',fuck);
+            // wee.redirect("https://www.facebook.com");
+
+            // test.hide();
+            // console.log("test2",test);
+            // console.log(document.styleSheets);
+            // var test5 = document.querySelectorAll(".login-container");
+            // console.log(test5);
+            // var tt = wee.convert(test5);
+            // console.log(tt);
+            console.log(i);
+        </script>
+    </body>
+</html>

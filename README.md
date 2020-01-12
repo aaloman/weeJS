@@ -1,6 +1,7 @@
 <img align="left" height="70" src="weeJS.png" alt="weeJS"/>
+<br>
 
-# weeJS
+# &nbsp; weeJS
 The weeJS is a very very light weight JQuery type Javascript Library.
 
 ### Function list
@@ -17,6 +18,15 @@ The weeJS is a very very light weight JQuery type Javascript Library.
 - wee.get()
 - wee.getJson()
 - wee.post()
-
+#### Cross Browser Support
+- Desktop
+    - IE 8+
+    - Firefox
+    - Chrome
+    - Safari
+    - Opera
+- Mobile
+    - Android
+    - IOS
 #### Convert dom selector to wee selector
 - wee.convert(Elements)
