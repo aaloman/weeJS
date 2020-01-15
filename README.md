@@ -1,5 +1,4 @@
-<img align="left" height="50" src="weeJS.png" alt="weeJS"/>
-# weeJS
+<h2><img align="left" height="50" src="weeJS.png" alt="weeJS"/>weeJS</h2>
 The weeJS is a very very light weight JQuery type Javascript Library.
 
 ### Function list
