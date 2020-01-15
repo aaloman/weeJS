@@ -1,5 +1,4 @@
 <img align="left" height="50" src="weeJS.png" alt="weeJS"/>
-
 # weeJS
 The weeJS is a very very light weight JQuery type Javascript Library.
 
