@@ -530,13 +530,18 @@
     }
     wee.startTimer = function (callback, duration, repeat) {
         duration = duration || 1000;
-        repeat = repeat || 0;
+        repeat = repeat;
         var timer;
-        var counter = 1;
+        var counter = 0;
         function start() {
-            if (counter == repeat) stop();
-            callback(timer, counter);
+
+            if (counter == repeat) {
+                wee.stopTimer(timer);
+                return;
+            };
             counter++;
+            callback(timer, counter);
+            
         }
         timer = setInterval(start, duration);
     }
