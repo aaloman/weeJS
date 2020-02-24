@@ -25,5 +25,3 @@ The weeJS is a very very light weight JQuery type Javascript Library.
 - Mobile
     - Android
     - IOS
-#### Convert dom selector to wee selector
-- wee.convert(Elements)
